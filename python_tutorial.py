@@ -20,7 +20,7 @@ def my_profile(firstname, lastname):
     profile = f"Hello Everyone, my name is {firstname} {lastname} and I am happy to be here"
     return profile
 
-firstname = "Mutmainnah"
-lastname = "Hammed"
+firstname = "Lekan"
+lastname = "Olarewaju"
 
 print(my_profile(firstname, lastname))
