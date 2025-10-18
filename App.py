@@ -1,64 +1,64 @@
-# print("Hello Word")
+print("Hello Word")
 
-# if 5 > 2:
-#     print("Five is greater than two")
-# if 6 < 10:
-#  print("six is less ten")
+if 5 > 2:
+    print("Five is greater than two")
+if 6 < 10:
+ print("six is less ten")
 
-#  x = 5
-#  y = ("hello word")
-# #  print (x)
-# #  print (y)
-
-
-# x = 5
-# y = ("hello woeld")
-# print(x)
-# print(y)
+ x = 5
+ y = ("hello word")
+#  print (x)
+#  print (y)
 
 
-# x = 5
-# y = "john"
-# print (type(x))
-# print(type(y))
-
-# x = "awesome"
-
-# def myfunc():
-#     print("python is " + x)
-
-# myfunc ()    
-
-# x = "awesome"
-
-# def myfunc():
-#     x = "fantastic"
-#     print("python is " + x)
-    
-# # myfunc()
-# print("python is " + x)                        
+x = 5
+y = ("hello woeld")
+print(x)
+print(y)
 
 
-# course = "python programming"
-# print(len(course))
-# print(course[1])
+x = 5
+y = "john"
+print (type(x))
+print(type(y))
+
+x = "awesome"
+
+def myfunc():
+    print("python is " + x)
+
+myfunc ()
+
+x = "awesome"
+
+def myfunc():
+    x = "fantastic"
+    print("python is " + x)
+
+# myfunc()
+print("python is " + x)
 
 
-# fisrt = "olarewaju"
-# last = "olalekan"
-# full = fisrt + " " + last
-# print(full)
+course = "python programming"
+print(len(course))
+print(course[1])
 
-# course = "python programming"
-# print(course.upper())
-# print(course.lower())
-# print(course.title())
+
+fisrt = "olarewaju"
+last = "olalekan"
+full = fisrt + " " + last
+print(full)
+
+course = "python programming"
+print(course.upper())
+print(course.lower())
+print(course.title())
 
 def my_area(l, b):
     # # global x
     # x = "Good morning everyone. Python language is sweet"
     # print(x)
-    
+
     area = l * b
     # print(area)
     return area
@@ -78,4 +78,44 @@ def basket_volume():
 print(volume())
 print(basket_volume())
 # print("python is " + x)
+
+
+fisrt = "olarewaju"
+last = "olalekan"
+full = fisrt + " " + last
+print(full)
+
+fisrt = "olarewaju"
+last = "olalekan"
+full = f"{fisrt} {last}"
+print(full)
+
+
+course = "python programming"
+print(course.upper())
+print(course.lower())
+
+course = "python programming"
+print(len(course))
+print(course[0])
+
+temperture = 25
+if temperture > 30:
+    print("it hot")
+    print("it cold")
+print("done")
+
+
+age = 17
+message = "eligible" if age >= 18 else "not eligible"
+print(message)
+
+
+age = 22
+if age >= 15:
+    message = "eligible"
+else:
+    message = "not eligible"
+print(message)
+
 
