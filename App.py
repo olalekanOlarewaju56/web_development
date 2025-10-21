@@ -170,6 +170,6 @@ def myfunction():
    return True
 print(myfunction())
 
-# Love todays lesson
+# Love todays tutorial
 
 
