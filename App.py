@@ -119,3 +119,57 @@ else:
 print(message)
 
 
+age = 12
+message ="eligible" if age >=15 else "not eligible"
+print(message)
+
+high_income = True
+good_create =True
+if high_income and good_create:
+    print("eligible")
+
+high_income = False
+good_create =True
+if high_income and good_create:
+    print("eligible")
+else:
+    print("not eligible") 
+
+
+age = 36
+txt = "my name is ola, i am " + age 
+print(txt)
+
+age = 36
+txt = f"my name is ola i am {36}"
+print(txt)
+
+
+price = 59
+txt = f"the price is {price: .2f} dollars"
+print(txt)
+
+print(10 > 9)
+
+a = 200
+b = 33
+if b > a:
+    print("b is greater than a")
+else:
+    print("a is greater than b")
+
+
+class myclass():
+    def __len__(self):
+     return 0
+myobj = myclass
+print(bool(myobj))
+
+
+def myfunction():
+   return True
+print(myfunction())
+
+len
+
+
