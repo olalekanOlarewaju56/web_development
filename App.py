@@ -170,6 +170,69 @@ def myfunction():
    return True
 print(myfunction())
 
-# Love todays tutorial for debugging
+today_practic:
+
+def myfunction():
+    print("myfunction")
+myfunction()
+
+
+def myfunction():
+    print("myfunction")
+myfunction()
+myfunction()
+myfunction()
+
+temp1 = 77
+celsius1 = (temp1 - 32) * 5 / 9
+print(celsius1)
+
+temp2 = 95
+celsius2 = (temp2 - 32) * 5 / 9
+print(celsius2)
+
+temp3 = 50
+celsius3 = (temp3 - 32) * 5 / 9
+print(celsius3)
+
+
+
+def fahrenheit_to_celsius(fahrenheit):
+    return(fahrenheit - 32) * 5 / 9
+print(fahrenheit_to_celsius(77))
+print(fahrenheit_to_celsius(95))
+print(fahrenheit_to_celsius(50))
+
+
+def get_greeting():
+    return("hello from a functon")
+
+message = get_greeting()
+print(message)
+
+def my_function(fname):
+    print(fname + " refsnes")
+
+my_function("Email")
+my_function("tobias")
+my_function("linus")
+
+def my_function(name):
+    print("hello" , name)
+my_function("Email")   
+
+
+def my_function(fname, lname):
+    print(fname + " " + lname)
+my_function("Email", "refsnes")    
+
+
+
+
+
+
+
+
+
 
 
